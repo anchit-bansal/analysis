@@ -4,6 +4,7 @@ Internship assignment for RedCarpetUp Incorporation
 # Contents
  R.O.C.K.S submission.ipynb (Code file)
  2010 Federal STEM Education Inventory Data Set.csv (Data)
+ ROCKS_submission.py(Pytest implementation)
 
 # Data
 The data is downloaded from the link provided by the company.
@@ -53,4 +54,16 @@ Cell 18: Printing number of features selected.
 
 Cell 19: Printing features selected.
 
-I have not implemented Part 3 of Step 3 because of my unfamiliarity with pytest, also I did try to understand and implement it but couldn't make any function for demonstrating this part. Also I couldn't understand the use of pytest with functions dealing with pandas dataframe.
+# ROCKS_submission.py (Pytest implementation)
+Included pytest test cases on explicitely defined functions.
+
+Test Cases:
+
+1) Checks if the get_test_size() function return exact 30% of data size.
+
+2) Checks if test data is smaller than training data for function get_thresh().
+
+3) Checks if required model type is passed in function get_thresh().
+
+4) Checks if label dataframe passed in function get_thresh() is single column dataframe.
+
